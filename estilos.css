@@ -1,0 +1,89 @@
+.titulo{
+    font-weight: 800;
+    font-size: 20px;
+
+
+}
+nav{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+ul{
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.barranav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.barranav-item{
+    margin: 0 10px;
+
+
+}
+
+.barranav-link{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+.descripcion{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.horario{
+    color: #F00;
+    font-weight: 900;
+    font-size: large;
+}
+
+.flex-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.listaserv{
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.imgservicio{
+    width: 100px;
+    height: 100px;
+}
+.imgcuadro{
+    max-width: 20%;
+}
+
+.imgred{
+    width: 20px;
+    height: 20px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.ubic{
+    font-weight: 800;
+    font-size: 10px;
+}
